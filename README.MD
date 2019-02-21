@@ -1,2 +1,1 @@
-# Bootstraporlio
 # Bootstrap-Portfolio
