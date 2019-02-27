@@ -1,0 +1,15 @@
+h1, h2 {
+    margin-top: .5rem;
+    border-bottom: 2px solid gray;
+    display: block
+}
+
+.title-wrapper {
+    text-align: center;
+    bottom: 80px;
+    color: white;
+    background-color: #4aaaa5;
+    height: auto;
+    padding: 10px 0;
+    width: 275px;
+}

@@ -3,70 +3,102 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>About me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body class="invisible-scrollbar">
     <header>
-        <!-- Fixed navbar -->
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <span class="navbar-brand mb-0 h1">Kyle Woodruff</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ml-4 mt-2 mt-lg-0">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="container card main-content">
+    <div class="container mt-4 border">
         <div class="row">
-            <div class="col-xl-12 col-lg-12 col-sm-12 col-md-12 col-12">
-                <h1>About me</h1>
-            </div>
+            <h2 class="col-11 mx-auto">About Me</h2>
         </div>
         <div class="row">
-            <div class="col-xl-12 col-lg-12 col-sm-12 col-md-12 col-12">
-                <hr>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
-                <div class="image-wrapper float-left pr-3">
-                    <img src="https://via.placeholder.com/200x200" alt="placeholder">
-                </div>
-                <div class="single-post-content-wrapper">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint
-                        occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="col-md-4">
+                <img src="./assets/images/Profile Pic.jpg" class="img-thumbnail w-100 mr-3" alt="profile picture"
+                    id="profile-pic">
+                <div class="card mt-3">
+                    <h3 class="text-center mt-2">Follow me</h3>
+                    <div class="d-flex justify-content-around my-3">
+                        <a class="fab fa-github bg-dark p-2" style="font-size:24px" href="https://github.com/kylewoodruff"></a>
+                        <a class="fab fa-stack-overflow bg-dark p-2" style="font-size:24px" href="https://stackoverflow.com/users/10762548/kyle-woodruff"></a>
+                        <a class="fab fa-twitter bg-dark p-2" style="font-size:24px" href="https://twitter.com/kwbrasi"></a>
+                    </div>
                 </div>
             </div>
+            <div class="col-md-8">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eveniet soluta. Aliquam
+                    vero esse non, harum autem nobis fugiat, reiciendis sequi necessitatibus iure provident est
+                    dolore veritatis tenetur doloremque ea! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Culpa dolor tenetur adipisci blanditiis at in, deserunt dignissimos iure voluptatem consequatur sed
+                    similique reiciendis quaerat, accusantium temporibus reprehenderit ex asperiores mollitia? Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, non ullam expedita asperiores natus
+                    esse fuga? Sunt placeat facere nesciunt, qui quae aliquam tempore provident minima eligendi in.
+                    Accusantium, fuga.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam pariatur
+                    exercitationem aliquam. Cum nesciunt maxime accusamus placeat ducimus, ex tempore vero
+                    reprehenderit fugiat fuga, officia quasi exercitationem iure minima. Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. At nesciunt, error officiis officia dolorum animi nostrum harum nobis
+                    laboriosam exercitationem reiciendis totam eaque molestiae voluptatem quidem, odio ab nulla sunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem ipsa quae similique? Earum,
+                    amet? Voluptatum non sit atque ea sed voluptates animi odit similique, reiciendis officia numquam
+                    suscipit quaerat.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam pariatur
+                    exercitationem aliquam. Cum nesciunt maxime accusamus placeat ducimus, ex tempore vero
+                    reprehenderit fugiat fuga, officia quasi exercitationem iure minima. Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. At nesciunt, error officiis officia dolorum animi nostrum harum nobis
+                    laboriosam exercitationem reiciendis totam eaque molestiae voluptatem quidem, odio ab nulla sunt.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati autem ipsa quae similique? Earum,
+                    amet? Voluptatum non sit atque ea sed voluptates animi odit similique, reiciendis officia numquam
+                    suscipit quaerat.
+                </p>
+            </div>
         </div>
+
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </html>

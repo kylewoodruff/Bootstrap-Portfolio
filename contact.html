@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="invisible-scrollbar">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <span class="navbar-brand mb-0 h1">Kyle Woodruff</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container card mt-4">
+            <h2>Contact</h2>
+        <form>
+            <div class="form-group-lg">
+                <label for="name">Full name</label>
+                <input type="text" class="form-control" id="fullname" aria-describedby="fullname"
+                    placeholder="Please enter your name">
+            </div> <br>
+            <div class="form-group-lg">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Please enter your email">
+                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+            </div> <br>
+            <div class="form-group-lg">
+                <label for="FormControlTextarea">Message</label>
+                <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
+            </div> <br>
+            <button type="submit" class="btn btn-primary mb-3">Submit</button> <br>
+        </form>
+    </section>
+</body>
+
+</html>
